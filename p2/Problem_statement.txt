@@ -1,0 +1,13 @@
+
+Certainly! Let's break down the problem into its components and provide the requested items.
+
+1. Problem Statement with Constraints
+Problem Statement:
+In the mystical kingdom of Eldoria, Harkirat seeks the legendary Treasure of Ages, guarded by gates that require specific XOR values to unlock. He possesses a map with an array nums of these XOR values. Each gate can only be unlocked by an XOR value less than a given integer k.
+
+To maximize his chances of unlocking the treasure, Harkirat needs to find the maximum XOR (max_xor) achievable with any pair of numbers from nums such that the result is less than k.
+
+Constraints:
+
+1 <= nums.size() <= 1000
+0 <= nums[i], k < 2^31

@@ -1,0 +1,55 @@
+Problem Statement: Harkirat's Gift-Giving Dilemma
+
+Harkirat, a young man with an affectionate heart and multiple girlfriends, wants to surprise each girlfriend with gifts. He has noted down the number of gifts and their respective prices for each girlfriend in a secret book. However, his father, who discovered the book, now wants to know how much Harkirat is spending on each girlfriend.
+
+Task:
+
+Write a program to help Harkirat answer his father's queries efficiently:
+
+1. You will receive multiple test cases.
+2. For each test case:
+    -> Determine the number of girlfriends (N) and the number of queries (Q).
+    -> For each girlfriend, read the number of gifts she receives and their respective prices.
+    -> Respond to each query with the total amount Harkirat spends on the specified girlfriend.
+
+Input Format:
+
+-> The first line contains the number of test cases (t).
+-> For each test case:
+  -> The first line contains two integers N (number of girlfriends) and Q (number of queries).
+  -> For each girlfriend, two lines follow:
+    -> The first line contains the girlfriend's name.
+    -> The second line contains an integer (g), followed by g integers representing the prices of the gifts.
+-> Following these, there are Q lines, each containing a girlfriend's name for which the spending amount needs to be queried.
+Output Format:
+
+For each query, print the total amount spent on gifts for the specified girlfriend.
+Constraints:
+
+1≤𝑡≤10
+1≤𝑁,𝑄≤1000
+Each girlfriend may receive up to 100 gifts.
+Example:
+
+Input:
+
+1
+3 3
+Alice
+2
+10 20
+Bella
+3
+5 15 25
+Cara
+1
+30
+Alice
+Bella
+Cara
+Output:
+
+30
+45
+30
+
